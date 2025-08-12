@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-/*Create a Product class with name and price. Implement Comparable so that products are sorted by price (ascending), and if prices are equal, sort by name (alphabetically).
+/*Create a Product class with name and price. Implement Comparable so that products are sorted by price (ascending), and if prices are equal, sort by name .
 Focus: Multi-level comparison.*/
 public class Product implements Comparable<Product> {
     String name;
