@@ -14,7 +14,8 @@ public class Question5 {
         return new String(chars);
     }
     public static void main(String[] args) {
-        Question5 q = new Question5();
-
+        SortString sorts = (String input) ->sort(input);
+                String word1 = "Bharatkarle";
+        System.out.println(sorts.sortString(word1));
     }
 }
